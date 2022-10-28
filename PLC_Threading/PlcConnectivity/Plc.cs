@@ -90,7 +90,7 @@ namespace PLC_Threading.PlcConnectivity
             {
                 throw new ArgumentException("Ip address is not valid");
             }
-            plcDriver = new S7NetPlcDriver(CpuType.S7300, ipAddress, 0, 2);
+            plcDriver = new S7NetPlcDriver(CpuType.S71200, ipAddress, 0, 1);
             plcDriver.Connect();
         }
 
