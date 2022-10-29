@@ -1,35 +1,44 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
-      "S7netplus/0.1.2": {
+    "net6.0-windows10.0.22621": {
+      "S7netplus/0.14.0": {
         "type": "package",
         "compile": {
-          "lib/net45/S7.Net.dll": {}
+          "lib/netstandard2.0/S7.Net.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/S7.Net.dll": {}
+          "lib/netstandard2.0/S7.Net.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
   },
   "libraries": {
-    "S7netplus/0.1.2": {
-      "sha512": "kzoOpB7SogfqM6vohm1PNEspwbXEayRA4mATw0U7ZuQVnMjO7jnLlJmxFIzno4r1fh6EbPn6XHmjIJEiDh0qJQ==",
+    "S7netplus/0.14.0": {
+      "sha512": "9EExFKQhp9s/celBJHxm+ircxykLFZwz4GBk1ufiMspq8eAkidl1hsm1Rn1mUw0wAfzrxtUyJvom1NkK9xIAkg==",
       "type": "package",
-      "path": "s7netplus/0.1.2",
+      "path": "s7netplus/0.14.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net45/S7.Net.dll",
-        "s7netplus.0.1.2.nupkg.sha512",
+        "lib/net452/S7.Net.dll",
+        "lib/net452/S7.Net.xml",
+        "lib/netstandard1.3/S7.Net.dll",
+        "lib/netstandard1.3/S7.Net.xml",
+        "lib/netstandard2.0/S7.Net.dll",
+        "lib/netstandard2.0/S7.Net.xml",
+        "s7netplus.0.14.0.nupkg.sha512",
         "s7netplus.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": [
-      "S7netplus >= 0.1.2"
+    "net6.0-windows10.0.22621": [
+      "S7netplus >= 0.14.0"
     ]
   },
   "packageFolders": {
@@ -54,15 +63,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net6.0-windows10.0.22621.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "net6.0-windows10.0.22621": {
+          "targetAlias": "net6.0-windows10.0.22621.0",
           "projectReferences": {}
         }
       },
@@ -73,12 +82,12 @@
       }
     },
     "frameworks": {
-      "net6.0-windows7.0": {
-        "targetAlias": "net6.0-windows",
+      "net6.0-windows10.0.22621": {
+        "targetAlias": "net6.0-windows10.0.22621.0",
         "dependencies": {
           "S7netplus": {
             "target": "Package",
-            "version": "[0.1.2, )"
+            "version": "[0.14.0, )"
           }
         },
         "imports": [
@@ -92,8 +101,17 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.22621.27, 10.0.22621.27]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref": {
             "privateAssets": "all"
           },
           "Microsoft.WindowsDesktop.App.WindowsForms": {
@@ -103,17 +121,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'S7netplus 0.1.2' paketi, proje hedef çerçevesi 'net6.0-windows7.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
-      "libraryId": "S7netplus",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

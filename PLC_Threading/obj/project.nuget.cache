@@ -1,21 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ENOpXSaeLrF1XJwXw8W7h4m2wWSIGHMTMzUeL7qBc30lELAVJ2vQOOjZkY3ZBMVhsK+7D14e+8Q/Af3Z32VRjQ==",
+  "dgSpecHash": "NZjQRqv8BD+2TIFlOqx3iVJMBlQwhm6QjJyegmI97W1WRonXTI4M8nQMikCNVCtuES+aw2wXR5oBuRTJnNMs5w==",
   "success": true,
   "projectFilePath": "G:\\Drive'ım\\PLC_Threading\\PLC_Threading\\PLC_Threading.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hatikuay\\.nuget\\packages\\s7netplus\\0.1.2\\s7netplus.0.1.2.nupkg.sha512"
+    "C:\\Users\\hatikuay\\.nuget\\packages\\s7netplus\\0.14.0\\s7netplus.0.14.0.nupkg.sha512",
+    "C:\\Users\\hatikuay\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.27\\microsoft.windows.sdk.net.ref.10.0.22621.27.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "'S7netplus 0.1.2' paketi, proje hedef çerçevesi 'net6.0-windows7.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
-      "libraryId": "S7netplus",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

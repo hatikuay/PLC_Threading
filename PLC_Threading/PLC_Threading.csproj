@@ -2,14 +2,18 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="S7netplus" Version="0.1.2" />
+    <None Remove="desktop.ini" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="S7netplus" Version="0.14.0" />
   </ItemGroup>
 
   <ItemGroup>

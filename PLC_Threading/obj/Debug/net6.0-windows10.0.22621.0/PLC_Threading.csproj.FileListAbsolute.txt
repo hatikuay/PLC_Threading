@@ -1,0 +1,7 @@
+G:\Drive'ım\PLC_Threading\PLC_Threading\obj\Debug\net6.0-windows10.0.22621.0\PLC_Threading.csproj.AssemblyReference.cache
+G:\Drive'ım\PLC_Threading\PLC_Threading\obj\Debug\net6.0-windows10.0.22621.0\PLC_Threading.MainWindow.resources
+G:\Drive'ım\PLC_Threading\PLC_Threading\obj\Debug\net6.0-windows10.0.22621.0\PLC_Threading.csproj.GenerateResource.cache
+G:\Drive'ım\PLC_Threading\PLC_Threading\obj\Debug\net6.0-windows10.0.22621.0\PLC_Threading.GeneratedMSBuildEditorConfig.editorconfig
+G:\Drive'ım\PLC_Threading\PLC_Threading\obj\Debug\net6.0-windows10.0.22621.0\PLC_Threading.AssemblyInfoInputs.cache
+G:\Drive'ım\PLC_Threading\PLC_Threading\obj\Debug\net6.0-windows10.0.22621.0\PLC_Threading.AssemblyInfo.cs
+G:\Drive'ım\PLC_Threading\PLC_Threading\obj\Debug\net6.0-windows10.0.22621.0\PLC_Threading.csproj.CoreCompileInputs.cache
