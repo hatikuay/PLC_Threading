@@ -37,12 +37,13 @@ namespace PLC_Threading
         public void Connect()
         {
             ConnectionState = ConnectionStates.Connecting;
-            var error = client.Open();
+            client.Open();
+            /*var error = client.Open();
             if (error != ErrorCode.NoError)
             {
                 ConnectionState = ConnectionStates.Offline;
                 throw new Exception(error.ToString());
-            }
+            }*/
             ConnectionState = ConnectionStates.Online;
         }
 
@@ -93,11 +94,12 @@ namespace PLC_Threading
                 {
                     value = (bool)tag.ItemValue ? 1 : 0;
                 }
-                var result = client.Write(tag.ItemName, value);
+                client.Write(tag.ItemName, value);
+                /*var result = client.Write(tag.ItemName, value);
                 if (result is ErrorCode && (ErrorCode)result != ErrorCode.NoError)
                 {
                     throw new Exception(((ErrorCode)result).ToString() + "\n" + "Tag: " + tag.ItemName);
-                }
+                }*/
             }
         }
 
