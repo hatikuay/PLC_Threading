@@ -1,6 +1,8 @@
 using PLC_Threading.PlcConnectivity;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -175,6 +177,20 @@ namespace PLC_Threading
         private void lblSetDwordVariable_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void MainWindow_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //Form2 f1 = (Form2)Application.OpenForms["Form2"]; // example code
+            Container container = (Container)Application.OpenForms["Container"];
+            foreach (var item in container.listMain) {
+                if (item.Text == Text) {
+                    container.listMain.Remove(item);
+                    container.sayi--;
+                    break;
+                }
+            }
+            Debug.WriteLine(container.sayi);
         }
     }
 }
