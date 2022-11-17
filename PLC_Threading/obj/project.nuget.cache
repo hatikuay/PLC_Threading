@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xjHqaykQ21G2ben4W/dB41bjuh70om8reT0heXEXgCfnqR8SDkuynm2QHWbnCArimfS2W1mUEVtMCJy7ZFFuxw==",
+  "dgSpecHash": "6w6ipD361u165eDbvlRPOKdNmHFBY1y5wD/nzLhNFshHGHXtOHopmbjgnfwjbHPJU06Px6e7plGwNUEbybsAhQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yunus\\source\\repos\\PLC_Threading\\PLC_Threading\\PLC_Threading.csproj",
+  "projectFilePath": "C:\\Users\\ozbin\\source\\repos\\PLC_Threading\\PLC_Threading\\PLC_Threading.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\yunus\\.nuget\\packages\\s7netplus\\0.14.0\\s7netplus.0.14.0.nupkg.sha512",
-    "C:\\Users\\yunus\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.27\\microsoft.windows.sdk.net.ref.10.0.22621.27.nupkg.sha512"
+    "C:\\Users\\ozbin\\.nuget\\packages\\s7netplus\\0.14.0\\s7netplus.0.14.0.nupkg.sha512",
+    "C:\\Users\\ozbin\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.27\\microsoft.windows.sdk.net.ref.10.0.22621.27.nupkg.sha512"
   ],
   "logs": []
 }

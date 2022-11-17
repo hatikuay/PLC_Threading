@@ -183,14 +183,14 @@ namespace PLC_Threading
         {
             //Form2 f1 = (Form2)Application.OpenForms["Form2"]; // example code
             Container container = (Container)Application.OpenForms["Container"];
-            foreach (var item in container.listMain) {
-                if (item.Text == Text) {
-                    container.listMain.Remove(item);
-                    container.sayi--;
-                    break;
-                }
+           int windowCount = container.listMain.Count;
+            if (windowCount != 0)
+            {
+                container.listMain.Remove(this);
             }
-            Debug.WriteLine(container.sayi);
+            
+            
+            Debug.WriteLine(container.listMain.Count);
         }
     }
 }
