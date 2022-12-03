@@ -182,7 +182,7 @@ namespace PLC_Threading
         private void MainWindow_FormClosed(object sender, FormClosedEventArgs e)
         {
             //Form2 f1 = (Form2)Application.OpenForms["Form2"]; // example code
-            Container container = (Container)Application.OpenForms["Container"];
+            /*Container container = (Container)Application.OpenForms["Container"];
             foreach (var item in container.listMain) {
                 if (item.Text == Text) {
                     container.listMain.Remove(item);
@@ -190,7 +190,7 @@ namespace PLC_Threading
                     break;
                 }
             }
-            Debug.WriteLine(container.sayi);
+            Debug.WriteLine(container.sayi);*/
         }
     }
 }
